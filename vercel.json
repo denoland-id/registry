@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://github.com/denoland-id/registry"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/schema.json",
+      "destination": "https://raw.githubusercontent.com/denoland-id/registry/schema.json"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}

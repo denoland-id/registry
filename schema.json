@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "https://registry.denoland.id/schema.json",
+  "title": "Deno module database",
+  "description": "Registry database for Deno modules",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "patternProperties": {
+    "[a-z-]+": {
+      "title": "Module name",
+      "type": "object",
+      "required": ["desc", "type", "org", "repo"],
+      "properties": {
+        "desc": {
+          "title": "Description",
+          "description": "Module description",
+          "type": "string"
+        },
+        "type": {
+          "title": "Type",
+          "description": "Module repository type (currently only GitHub and GitLab)",
+          "type": "string",
+          "enum": ["GitHub", "GitLab"]
+        },
+        "org": {
+          "title": "Org",
+          "description": "Module owner (repo username/org)",
+          "type": "string"
+        },
+        "repo": {
+          "title": "Repo",
+          "description": "Module repository name",
+          "type": "string"
+        }
+      },
+      "additionalItems": false,
+      "additionalProperties": false
+    }
+  },
+  "additionalItems": false,
+  "additionalProperties": false
+}
