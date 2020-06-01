@@ -1,3 +1,9 @@
 {
-  "$schema": "https://registry.denoland.id/schema.json"
+  "$schema": "https://registry.denoland.id/schema.json",
+  "airtable": {
+    "desc": "Unofficial Airtable Client for Deno",
+    "org": "grikomsn",
+    "repo": "airtable-deno",
+    "type": "GitHub"
+  }
 }
