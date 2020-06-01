@@ -9,6 +9,10 @@
     {
       "source": "/schema.json",
       "destination": "https://raw.githubusercontent.com/denoland-id/registry/schema.json"
+    },
+    {
+      "source": "/:registry",
+      "destination": "/api/registry"
     }
   ],
   "cleanUrls": true,
