@@ -1,3 +1,9 @@
 {
-  "$schema": "https://registry.denoland.id/schema.json"
+  "$schema": "https://registry.denoland.id/schema.json",
+  "denovel": {
+    "desc": "A Deno Framework For Web Artisan - Inspired by Laravel",
+    "org": "fauzan121002",
+    "repo": "denovel",
+    "type": "GitHub"
+  }
 }

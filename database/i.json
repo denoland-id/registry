@@ -1,3 +1,9 @@
 {
-  "$schema": "https://registry.denoland.id/schema.json"
+  "$schema": "https://registry.denoland.id/schema.json",
+  "i18next_mongo_backend": {
+    "desc": "i18next mongodb backend https://www.i18next.com/ - Only for Deno 🦖",
+    "org": "lamualfa",
+    "repo": "dn-i18next-mongo-backend",
+    "type": "GitHub"
+  }
 }

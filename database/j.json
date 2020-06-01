@@ -1,3 +1,9 @@
 {
-  "$schema": "https://registry.denoland.id/schema.json"
+  "$schema": "https://registry.denoland.id/schema.json",
+  "jurassic": {
+    "desc": "A Straightforward API Server for Deno",
+    "org": "oknoorap",
+    "repo": "jurassic",
+    "type": "GitHub"
+  }
 }

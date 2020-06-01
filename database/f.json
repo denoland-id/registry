@@ -1,3 +1,9 @@
 {
-  "$schema": "https://registry.denoland.id/schema.json"
+  "$schema": "https://registry.denoland.id/schema.json",
+  "fastro": {
+    "desc": "deno fast web framework",
+    "org": "fastrojs",
+    "repo": "fastro-server",
+    "type": "GitHub"
+  }
 }

@@ -23,7 +23,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn contributors:generate && lint-staged"
+      "pre-commit": "yarn validate && yarn contributors:generate && lint-staged"
     }
   },
   "lint-staged": {
