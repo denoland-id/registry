@@ -42,22 +42,10 @@
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
-"@types/node@*":
-  version "14.0.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.6.tgz#f9e178b2da31a4b0ec60b64649e244c31ce18daf"
-  integrity sha512-FbNmu4F67d3oZMWBV6Y4MaPER+0EpE9eIYf2yaHhCWovc1dlXCZkqGX4NLHfVVr6umt20TNBdRzrNJIzIKfdbw==
-
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
-
-"@vercel/node@^1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-1.6.1.tgz#03b08cb88a2ea82bb80603e81ae61e7e283ace5a"
-  integrity sha512-sCxhMtShD2kCcpznmYO5HaCG3LaqaJVm0xZiJq8BuGIuSNWgS/aXi5IESFa01whsafaS7WhdMTlAwNPPOvH5lg==
-  dependencies:
-    "@types/node" "*"
 
 aggregate-error@^3.0.0:
   version "3.0.1"

@@ -1,11 +1,13 @@
-export interface DenoDbEntry {
+declare const cwd: (...s: string) => string;
+
+declare interface DenoDbEntry {
   desc: string;
   type: "GitHub" | "GitLab";
   org: string;
   repo: string;
 }
 
-export interface DenoDatabase {
+declare interface DenoDatabase {
   $schema?: string;
   [module: string]: DenoDbEntry | {};
 }

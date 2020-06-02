@@ -5,17 +5,16 @@
   "repository": "git@github.com:denoland-id/registry.git",
   "author": "Griko Nibras <griko@denoland.id>",
   "scripts": {
+    "build": "node scripts/build",
     "validate": "node scripts/validate",
-    "format": "yarn format:index && yarn format:api && yarn format:database",
+    "format": "yarn format:index && yarn format:database",
     "format:index": "prettier --write \"*.{js,json,md}\"",
-    "format:api": "prettier --write \"api/**/*.{js,ts}\"",
     "format:database": "prettier --write \"database/*.json\"",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
     "prepare": "yarn format"
   },
   "devDependencies": {
-    "@vercel/node": "^1.6.1",
     "all-contributors-cli": "^6.15.0",
     "husky": "^4.2.5",
     "lint-staged": ">=10",
@@ -27,9 +26,6 @@
     }
   },
   "lint-staged": {
-    "api/**/*.{js,ts}": [
-      "prettier --write"
-    ],
     "database/*.json": [
       "prettier --write"
     ],
