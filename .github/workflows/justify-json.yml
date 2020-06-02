@@ -31,4 +31,4 @@ jobs:
         run: unzip justify-cli-3.0.0-RC1.zip
 
       - name: Validate API JSON data
-        run: justify-cli/justify -s schema.json
+        run: justify-cli/justify -s schema.json -i database/*.json
