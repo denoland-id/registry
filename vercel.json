@@ -8,6 +8,26 @@
       }
     }
   ],
+  "headers": [
+    {
+      "source": "/schema.json",
+      "headers": [
+        {
+          "key": "cache-control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "cache-control",
+          "value": "public, max-age=60, stale-while-revalidate=1"
+        }
+      ]
+    }
+  ],
   "redirects": [
     {
       "source": "/",
