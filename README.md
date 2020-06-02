@@ -9,7 +9,7 @@ List of Deno modules made by local developers 🇮🇩
 **Table of contents**
 
 - [Registry list](#registry-list)
-- [Structure](#structure)
+- [Schema](#schema)
 - [Adding new module(s)](#adding-new-modules)
 - [Validating](#validating)
 - [Contributing](#contributing)
@@ -48,7 +48,7 @@ List of Deno modules made by local developers 🇮🇩
 | [y.json](./database/y.json) | <https://registry.denoland.id/y.json> |
 | [z.json](./database/z.json) | <https://registry.denoland.id/z.json> |
 
-## Structure
+## Schema
 
 List of modules are categorized alphabetically and have similar yet different JSON properties like <https://deno.land>. View the [TypeScript declaration](./types.d.ts) or the [JSON schema](./schema.json).
 

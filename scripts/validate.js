@@ -1,12 +1,11 @@
 /// <reference path="../types.d.ts" />
 
-const fs = require("fs");
-const path = require("path");
+const { fs, cwd } = require("./utils");
 
 const defaultDb = { $schema: "https://registry.denoland.id/schema.json" };
 
 for (const letter of "abcdefghijklmnopqrstuvwxyz") {
-  const current = path.resolve(process.cwd(), `database/${letter}.json`);
+  const current = cwd(`database/${letter}.json`);
 
   /** @type {DenoDatabase} */
   let db;

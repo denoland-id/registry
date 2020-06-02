@@ -1,4 +1,13 @@
 {
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "database"
+      }
+    }
+  ],
   "redirects": [
     {
       "source": "/",
@@ -9,10 +18,6 @@
     {
       "source": "/schema.json",
       "destination": "https://raw.githubusercontent.com/denoland-id/registry/schema.json"
-    },
-    {
-      "source": "/:registry",
-      "destination": "/api/registry"
     }
   ],
   "cleanUrls": true,

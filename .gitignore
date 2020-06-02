@@ -2,3 +2,6 @@
 .vercel
 *.log
 node_modules
+
+/database/**/*
+!/database/[a-z].json
