@@ -1,3 +1,9 @@
 {
-  "$schema": "https://registry.denoland.id/schema.json"
+  "$schema": "https://registry.denoland.id/schema.json",
+  "validasaur": {
+    "desc": "Deno validation library that slightly inspired by Laravel Validation",
+    "org": "emsifa",
+    "repo": "validasaur",
+    "type": "GitHub"
+  }
 }
