@@ -1,3 +1,9 @@
 {
-  "$schema": "https://registry.denoland.id/schema.json"
+  "$schema": "https://registry.denoland.id/schema.json",
+  "cotton": {
+    "desc": "SQL Database Toolkit for Deno",
+    "org": "rahmanfadhil",
+    "repo": "cotton",
+    "type": "GitHub"
+  }
 }
