@@ -1,3 +1,9 @@
 {
-  "$schema": "https://registry.denoland.id/schema.json"
+  "$schema": "https://registry.denoland.id/schema.json",
+  "rupiah_ts": {
+    "desc": "Simple and lightweight rupiah currency format written in TypeScript",
+    "org": "andriawan",
+    "repo": "rupiah_ts",
+    "type": "GitHub"
+  }
 }
