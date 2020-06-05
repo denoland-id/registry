@@ -1,5 +1,11 @@
 {
   "$schema": "https://registry.denoland.id/schema.json",
+  "denova": {
+    "desc": "a Typescript Framework For Deno - Framework Looks Like Laravel",
+    "org": "viandwi24",
+    "repo": "denova",
+    "type": "GitHub"
+  },
   "denovel": {
     "desc": "A Deno Framework For Web Artisan - Inspired by Laravel",
     "org": "fauzan121002",
