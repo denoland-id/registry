@@ -1,3 +1,9 @@
 {
-  "$schema": "https://registry.denoland.id/schema.json"
+  "$schema": "https://registry.denoland.id/schema.json",
+  "time.ts": {
+    "desc": "Time.ts - A straightforward Deno timezone manipulation",
+    "org": "burhanahmeed",
+    "repo": "time.ts",
+    "type": "GitHub"
+  }
 }
