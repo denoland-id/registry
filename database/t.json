@@ -1,3 +1,9 @@
 {
-  "$schema": "https://registry.denoland.id/schema.json"
+  "$schema": "https://registry.denoland.id/schema.json",
+  "troodon": {
+    "desc": "Troodon is a lightweight Deno Library to Handle Algorithms",
+    "org": "shandysiswandi",
+    "repo": "troodon",
+    "type": "GitHub"
+  }
 }
