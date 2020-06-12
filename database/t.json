@@ -5,5 +5,11 @@
     "org": "burhanahmeed",
     "repo": "time.ts",
     "type": "GitHub"
+  },
+  "troodon": {
+    "desc": "Troodon is a lightweight Deno Library to Handle Algorithms",
+    "org": "shandysiswandi",
+    "repo": "troodon",
+    "type": "GitHub"
   }
 }
