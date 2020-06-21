@@ -1,5 +1,11 @@
 {
   "$schema": "https://registry.denoland.id/schema.json",
+  "time.ts": {
+    "desc": "Time.ts - A straightforward Deno timezone manipulation",
+    "org": "burhanahmeed",
+    "repo": "time.ts",
+    "type": "GitHub"
+  },
   "troodon": {
     "desc": "Troodon is a lightweight Deno Library to Handle Algorithms",
     "org": "shandysiswandi",
