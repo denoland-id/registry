@@ -7,10 +7,9 @@
     "type": "GitHub"
   },
   "indenosia": {
-    "type": "github",
-    "owner": "indenosia",
+    "desc": "HTTP server framework for Deno",
+    "org": "indenosia",
     "repo": "server",
-    "desc": "HTTP server framework for Deno.",
-    "default_version": "master"
+    "type": "GitHub",
   }
 }
