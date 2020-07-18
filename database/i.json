@@ -5,5 +5,11 @@
     "org": "lamualfa",
     "repo": "dn-i18next-mongo-backend",
     "type": "GitHub"
+  },
+  "indenosia": {
+    "desc": "HTTP server framework for Deno",
+    "org": "indenosia",
+    "repo": "server",
+    "type": "GitHub",
   }
 }
