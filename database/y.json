@@ -1,3 +1,9 @@
 {
-  "$schema": "https://registry.denoland.id/schema.json"
+  "$schema": "https://registry.denoland.id/schema.json",
+  "yummy": {
+    "desc": "A simple wrapper themealdb.com API for Deno 🦕.",
+    "org": "satyawikananda",
+    "repo": "yummy",
+    "type": "GitHub"
+  }
 }
