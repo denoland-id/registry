@@ -11,5 +11,11 @@
     "org": "fauzan121002",
     "repo": "denovel",
     "type": "GitHub"
+  },
+  "denovo": {
+    "desc": "Un-official Ovo API wrapper for Deno 🦕",
+    "org": "satyawikananda",
+    "repo": "denovo",
+    "type": "GitHub"
   }
 }
